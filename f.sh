@@ -88,7 +88,6 @@ set_uninstall(){
 # 展示菜单
 load_menu(){
 local_ip=`curl -4 ip.sb`
-clear
 echo ""
 echo -e "--------------------安装完成----------------------"
 echo -e "管理面板：http://${local_ip}:7500"
