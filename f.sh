@@ -23,8 +23,8 @@ EOF
 	sed -i 's/v//g' ./version.txt
 	get_releases=$(cat ./version.txt)
 
-	releases_url=https://github.com/fatedier/frp/releases/download/${new_ver}/frp_${get_releases}_linux_amd64.tar.gz
-	windows_url=https://github.com/fatedier/frp/releases/download/${new_ver}/frp_${get_releases}_windows_amd64.zip
+	releases_url=https://github.com/fatedier/frp/releases/download/v0.24.1/frp_0.24.1_linux_amd64.tar.gz
+	windows_url=https://github.com/fatedier/frp/releases/download/v0.24.1/frp_0.24.1_windows_amd64.zip
 	rm -rf ./version.txt
 }
 
